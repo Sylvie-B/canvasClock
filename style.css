@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    color: black;
+}
+
+#container, #frameNum, #frameLine, #frameLine2 {
+    width: 330px;
+    height: 330px;
+}
+
+#frameHour, #frameMin, #frameSec, #frameNum, #frameLine, #frameLine2 {
+    position: absolute;
+}
+
+#frameNum, #frame9, #frameLine, #frameLine2, #horiz30, #horiz-30 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#frameNum {
+    font-size: 1.5em;
+    flex-direction: column;
+    align-items: center;
+}
+
+#frameLine, #frameLine2 {
+    flex-direction: column;
+    align-items: center;
+    transform-origin: center center;
+}
+
+#frameLine {
+    transform: rotate(30deg);
+}
+
+#frameLine2 {
+    transform: rotate(60deg);
+}
+
+#line1, #line7, #line2, #line8 {
+    width: 2px;
+    height: 10px;
+    background-color: black;
+}
+
+#frame9, #horiz30, #horiz-30 {
+    width: 330px;
+}
+
+#line4, #line10, #line5, #line11 {
+    width: 10px;
+    height: 2px;
+    background-color: black;
+}
