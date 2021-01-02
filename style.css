@@ -10,6 +10,31 @@ html {
     color: black;
 }
 
+#frameHour, #frameMin, #frameSec {
+    border-radius: 50%;
+}
+
+#frameHour {
+    margin: 75px;
+    border: 28px solid cyan;
+    width: 180px;
+    height: 180px;
+}
+
+#frameMin {
+    margin: 45px;
+    border: 20px solid teal;
+    width: 240px;
+    height: 240px;
+}
+
+#frameSec {
+    margin: 15px;
+    border: 14px solid blue;
+    width: 300px;
+    height: 300px;
+}
+
 #container, #frameNum, #frameLine, #frameLine2 {
     width: 330px;
     height: 330px;
@@ -46,8 +71,7 @@ html {
 
 #line1, #line7, #line2, #line8 {
     width: 2px;
-    height: 10px;
-    background-color: black;
+    height: 15px;
 }
 
 #frame9, #horiz30, #horiz-30 {
@@ -55,7 +79,10 @@ html {
 }
 
 #line4, #line10, #line5, #line11 {
-    width: 10px;
+    width: 15px;
     height: 2px;
-    background-color: black;
+}
+
+#line1, #line7, #line2, #line8, #line4, #line10, #line5, #line11 {
+    background-color: blue;
 }

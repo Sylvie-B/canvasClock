@@ -1,23 +1,6 @@
 let frameSec = document.getElementById('frameSec');
-frameSec.style.border = '28px solid blue';
-frameSec.style.borderRadius = '50%';
-frameSec.style.width = '300px';
-frameSec.style.height = '300px';
-frameSec.style.margin = '15px';
-
 let frameMin = document.getElementById('frameMin');
-frameMin.style.border = '28px solid teal';
-frameMin.style.borderRadius = '50%';
-frameMin.style.width = '240px';
-frameMin.style.height = '240px';
-frameMin.style.margin = '45px';
-
 let frameHour = document.getElementById('frameHour');
-frameHour.style.border = '28px solid cyan'
-frameHour.style.borderRadius = '50%';
-frameHour.style.width = '180px';
-frameHour.style.height = '180px';
-frameHour.style.margin = '75px';
 
 let rectSec = frameSec.getContext('2d');
 rectSec.fillStyle = 'blue';
